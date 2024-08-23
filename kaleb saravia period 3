@@ -1,0 +1,21 @@
+username = ("ksara002")
+password = ("072710ks")
+
+
+
+print("Login ")
+user = input ("User:")
+
+if user == "ksara002":
+  print("Correct User")
+
+else:
+     print("Wrong Username Retry")
+     
+password = input ("Password:")
+
+if password == "2010ks":
+    print ("Welcome Back Kaleb!!")
+
+else:
+    print ("Access Denied")
